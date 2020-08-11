@@ -10,6 +10,8 @@ Obs.: Inside the "Reports" directory you can find reports gerated by a EDA libra
 
 - You need to have the Anaconda distribution installed, if you don't have it, please follow the steps on the following website: <https://www.anaconda.com/products/individual#Downloads>
 
+  - Obs.: You can use the "requirements.txt" file with the command "conda create --name dataenv --file requirements.txt", but it will install a lot of libs that aren't used by this notebook.
+
 - It is advised to use a separate development environment, follow the steps below.
   - Open your terminal and run the following commands:
     - conda create -n dataenv python=3.7 pylint 
